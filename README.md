@@ -1,7 +1,6 @@
 # **Dictionary Management System Using Trie**
 
-This Dictionary Management System uses a Trie data structure for efficient word storage and retrieval. 
-It supports key functionalities like adding words with definitions, searching, deleting entries, displaying all words, and finding words by prefix.
+This Dictionary Management System leverages a _**Trie**_ data structure for efficient storage and retrieval of words. A Trie, also known as a _prefix tree_ , organizes words in a way that allows for fast insertion, search, and prefix matching. Each node in the Trie represents a character, with paths leading to subsequent characters, enabling quick lookup and manipulation of dictionary entries.It supports key functionalities like adding words with definitions, searching, deleting entries, displaying all words, and finding words by prefix.
 The system reads and writes data to a text file, ensuring persistence.
 
 ### **Key Features:**
