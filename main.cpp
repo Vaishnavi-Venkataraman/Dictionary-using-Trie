@@ -35,7 +35,7 @@ int main()
 
         while (flag)
         {
-            cout << "\nEnter your choice\n1. View\n2. Add\n3. Search\n4. Delete\n5. Find Words with Prefix\n6. Random Words\n0. Exit\n";
+            cout << "\nEnter your choice\n1. View\n2. Add\n3. Search\n4. Delete\n5. Find Words with Prefix\n0. Exit\n";
             cin >> choice;
 
             switch (choice)
@@ -103,13 +103,7 @@ int main()
                         cerr << " NULL \nNo words found with the prefix " << word << endl;
                     }
                     break;
-               case 6:
-                    int length;
-                    cout << "Enter the length of the word: ";
-                    cin >> length;
-                    dictionary.scramble(length);
-                    break;
-
+                
                 default:
                     cout << "Enter a valid option." << endl;
             }
